@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 
-
+/* Header */
 .header {
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
@@ -72,6 +72,8 @@ body {
 .list {
     font-size: 20px;
     cursor: pointer;
+    color: black;
+    text-decoration: none;
 }
 
 .list:hover {
@@ -82,7 +84,90 @@ body {
     text-decoration: underline black;
 }
 
+.linkTilbake{
+    margin-left: 110px;
+    text-decoration: underline #b5e48c;
+    color: black;
+}
+
+.testMargin {
+    margin-top: 20px;
+}
+
+.linkTilbake:hover {
+    text-decoration: underline black;
+}
+
+/* Main */
+
 .center {
     text-align: center;
 }
+
+.mainText {
+    font-size: 50px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+.img {
+    width: 200px;
+    height: 100px;
+    margin-left: 110px;
+    margin-top: 15px;
+}
+
+/* Tbody element */
+
+.shop-list-item__title, .shop-list-item__location, .åpningstider, .shop-list-item__contakt{
+   column-count: 2;
+   column-gap: 0;
+    
+}
+
+.shop-list-item__title, .shop-list-item__location, .åpningstider, .shop-list-item__contakt{
+    margin: 0;
+    padding: 0;
+    font-family: FontG;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.shop-list-item__contakt {
+  position: relative;
+  left: 22rem;
+}
+
+.shop-list-item__title {
+    position: relative;
+    left: 15rem;
+  }
+
+.shop-list-item__location {
+    position: relative;
+    left: 15rem;
+  }
+
+.åpningstider {
+    position: relative;
+    left: 20rem;
+}
+  
+  
+
 
